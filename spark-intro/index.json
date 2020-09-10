@@ -14,12 +14,18 @@
           "file": "spark_install.sh",
           "target": "/root/",
           "chmod": "+x"
+        },
+        {
+          "file": "config_environment.sh",
+          "target": "/root/",
+          "chmod": "+x"
         }
       ]
     },
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "credits": "",
+      "foreground": "config_environment.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -30,6 +36,6 @@
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Spark Shell using `pyspark`\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "ubuntu:1804"
+    "imageid": "ubuntu"
   }
 }

@@ -10,6 +10,13 @@ Install Spark standalone running
 
 `./spark_install.sh`{{execute}}
 
+Run a Standalone server using
+
+`start-master.sh`{{execute}}
+
+Run a Spark slave using
+`start-slave.sh spark://ubuntu:7077`{{execute}}
+
 Run PySpark shell using
 
 `pyspark`{{execute}}
