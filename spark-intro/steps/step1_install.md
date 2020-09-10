@@ -8,7 +8,7 @@ This is an _example_ of creating a scenario and running a **command**
 
 Install Spark standalone running
 
-`./spark_install.sh`{{execute}}
+`source ./spark_install.sh`{{execute}}
 
 Run a Standalone server using
 
