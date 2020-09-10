@@ -1,0 +1,35 @@
+{
+  "title": "Spark Hello World Scenario",
+  "description": "Data School Spark Scenario",
+  "difficulty": "intermediate",
+  "time": "20 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Install Spark standalone",
+      "text": "steps/step1_install.md"
+    }],
+    "assets": {
+      "host01": [
+        {
+          "file": "spark_install.sh",
+          "target": "/root/",
+          "chmod": "+x"
+        }
+      ]
+    },
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Spark Shell using `pyspark`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}
