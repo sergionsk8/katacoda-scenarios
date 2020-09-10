@@ -6,7 +6,7 @@ This is an _example_ of creating a scenario and running a **command**
 
 `echo 'Hello World'`{{execute}}
 
-Install Java8 and Spark standalone running
+Install Java8 and Spark standalone. This should take a few minutes. Run
 
 `./spark_install.sh`{{execute}}
 
@@ -22,6 +22,10 @@ Run a Spark slave using
 
 `start-slave.sh spark://ubuntu:7077`{{execute}}
 
-Run PySpark shell using
+You can now run PySpark shell using
 
 `pyspark`{{execute}}
+
+Close the shell typing
+
+`exit()`

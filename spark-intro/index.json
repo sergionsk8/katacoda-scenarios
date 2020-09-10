@@ -4,14 +4,25 @@
   "difficulty": "intermediate",
   "time": "20 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Install Spark standalone",
-      "text": "steps/step1_install.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 1 - Install Spark standalone",
+        "text": "steps/step1_install.md"
+      },
+      {
+        "title": "Step 2 - Word Count",
+        "text": "steps/step2_wordcount.md"
+      }
+    ],
     "assets": {
       "host01": [
         {
           "file": "spark_install.sh",
+          "target": "/root/",
+          "chmod": "+x"
+        },
+        {
+          "file": "wikienel.txt",
           "target": "/root/",
           "chmod": "+x"
         }
