@@ -14,4 +14,4 @@ echo "export PATH=$PATH:/usr/lib/jvm/java-1.8.0-openjdk-amd64:/opt/spark/bin:/op
 echo "export PYSPARK_PYTHON=/usr/bin/python3" >> ~/.profile
 #source ~/.profile
 
-echo 'Done.'
+echo 'Done. Now run `source ~/.profile` to complete'
