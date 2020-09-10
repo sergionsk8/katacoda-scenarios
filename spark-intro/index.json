@@ -14,11 +14,6 @@
           "file": "spark_install.sh",
           "target": "/root/",
           "chmod": "+x"
-        },
-        {
-          "file": "config_environment.sh",
-          "target": "/root/",
-          "chmod": "+x"
         }
       ]
     },
