@@ -15,6 +15,7 @@ Run a Standalone server using
 `start-master.sh`{{execute}}
 
 Run a Spark slave using
+
 `start-slave.sh spark://ubuntu:7077`{{execute}}
 
 Run PySpark shell using
