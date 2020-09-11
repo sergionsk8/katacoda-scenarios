@@ -12,6 +12,10 @@
       {
         "title": "Step 2 - Word Count",
         "text": "steps/step2_wordcount.md"
+      },
+      {
+        "title": "Step 2 - Dataframes",
+        "text": "steps/step3_dataframes.md"
       }
     ],
     "assets": {
@@ -23,6 +27,16 @@
         },
         {
           "file": "wikienel.txt",
+          "target": "/root/",
+          "chmod": "+x"
+        },
+        {
+          "file": "departments.csv",
+          "target": "/root/",
+          "chmod": "+x"
+        },
+        {
+          "file": "employees.json",
           "target": "/root/",
           "chmod": "+x"
         }
