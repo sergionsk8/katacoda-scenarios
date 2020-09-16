@@ -1,0 +1,19 @@
+DEPT_ID|DEPT_NAME|MANAGER_ID|PHONENUMBER|ADDRESS|COUNTRY
+001|Administration|200|||IT
+002|Marketing|201|||FR
+30|Purchasing|114|||IT
+40|Human Resources |203|||FR
+50|Shipping|121|||IT
+60|IT|103|||CL
+70|Public Relations|204|||CL
+80|Sales|145|||ES
+90|Executive|100|||ES
+100|Finance|108|||IT
+110|Accounting|205|||ES
+120|Treasury|0|||IT
+130|Corporate Tax|0|||IT
+140|Control And Credit|  0|||IT
+150|Shareholder Services|  0|||IT
+160|Benefits|0|||IT
+170|Manufacturing|0|||IT
+180|Construction|0|||IT

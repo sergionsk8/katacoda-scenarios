@@ -1,0 +1,3 @@
+{ "userId": "krish", "jobTitle": "Developer", "firstName": "Krish", "lastName": "Lee", "employeeCode": "E1", "dept_id": "001", "phoneNumber": "123456", "emailAddress": "krish.lee@learningcontainer.com", "salary": 20000.00}
+{ "userId": "devid", "jobTitle": "Developer", "firstName": "Devid", "lastName": "Rome", "employeeCode": "E2", "dept_id": "002", "phoneNumber": "1111111", "emailAddress": "devid.rome@learningcontainer.com", "salary": 50000.00}
+{ "userId": "tin", "jobTitle": "Program Directory", "firstName": "tin", "lastName": "jonson", "employeeCode": "E3", "dept_id": "002", "phoneNumber": "2222222", "emailAddress": "tin.jonson@learningcontainer.com", "salary": 70000.00}
