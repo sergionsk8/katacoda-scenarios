@@ -1,6 +1,6 @@
 In this example we want to calculate the average salary for employees by country.
 
-## Task
+### Task
 
 ```python
 # import dataframe useful functions
