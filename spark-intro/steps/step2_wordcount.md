@@ -1,6 +1,6 @@
 Now you are ready to write your first Spark script.
 
-## Task
+## Task 1
 
 In this exercise, we will rewrite the Work Count script and try to improve the results.
 
@@ -19,7 +19,7 @@ Remember the steps:
 - Order the results by value
 
 
-## Task
+## Task 2
 
 Not satisfied with the results?
 

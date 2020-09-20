@@ -11,11 +11,13 @@
       },
       {
         "title": "Step 2 - Word Count",
-        "text": "steps/step2_wordcount.md"
+        "text": "steps/step2_wordcount.md",
+        "answer": "steps/step2_wordcount_answer.md"
       },
       {
         "title": "Step 2 - Dataframes",
-        "text": "steps/step3_dataframes.md"
+        "text": "steps/step3_dataframes.md",
+        "answer": "steps/step3_dataframes_answer.md"
       }
     ],
     "assets": {
@@ -50,8 +52,9 @@
       "text": "finish.md"
     }
   },
+  "files": ["editor.txt"],
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Spark Shell using `pyspark`\u001b[m\r\n"
   },
   "backend": {
